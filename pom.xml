@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>CollaborativeFiltering</groupId>
+  <artifactId>CollaborativeFiltering</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>C_filtering</name>
+  
+  
+  
+<dependencies>
+	<dependency>
+    	<groupId>org.apache.spark</groupId>
+  	  	<artifactId>spark-core_2.11</artifactId>
+   		<version>2.2.0</version>
+    	<scope>provided</scope>
+	</dependency>
+	
+	<dependency>
+    <groupId>org.javatuples</groupId>
+    <artifactId>javatuples</artifactId>
+    <version>1.2</version>
+    </dependency>
+        
+    <dependency>
+	<groupId>com.databricks</groupId>
+	<artifactId>spark-csv_2.10</artifactId>
+	<version>1.5.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-mllib_2.11</artifactId>
+    <version>2.1.1</version>
+    <scope>provided</scope>
+</dependency>
+
+
+  <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-sql_2.11</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+<dependency>
+    <groupId>be.cylab</groupId>
+    <artifactId>java-roc</artifactId>
+    <version>0.0.4</version>
+</dependency>
+	
+	
+  
+ </dependencies> 
+    
+  
+</project>
